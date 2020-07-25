@@ -16,15 +16,15 @@ section {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin-top: 150px;
+  margin-top: 90px;
 }
 
 body {
   background: url('../images/bgtile.png');
-  /* width: 100vw;
-  height: 40vh;
-  position: fixed;
-  z-index: -1; */
+  /* width: 100vw; */
+  /* height: 60vh; */
+  /* position: fixed; */
+  /* z-index: -1; */
   background-repeat: repeat-x;
 }
 
@@ -42,8 +42,7 @@ body {
 } */
 article {
   background: url(../images/frame.png);
-  /* margin-top: 60px; */
-  background-position: center center;
+  /* background-position: center center; */
   background-size:100%;
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
@@ -51,29 +50,35 @@ article {
   /* margin-left: 4vw;
   max-width: fit-content;
   margin-right: -17vw; */
+  max-width: 700px;
+
 }
 
-article h1 {
+.text-container h1 {
   color: #294d6e;
   font-weight: 600;
-  font-size: 1.5rem;
-  /* padding-top: 8vh; */
-  padding-left:  50px;
-  /* padding-bottom: 3vh; */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  /* padding-left:  45px;
+  padding-bottom: 40px; */
 }
 
-article p {
-  padding-left:  50px;
+.text-container p {
+  /* padding-left:  50px; */
   line-height: 1.5;
-  padding-bottom: 1vh;
-  font-size: 0.9rem;
-  padding-right: 2vw;
+  /* padding-bottom: 1vh; */
+  font-size: 1.2rem;
+  /* padding-right: 2vw; */
+  margin-bottom: 20px;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 0 11px;
 }
 
 .login-button {
@@ -89,20 +94,34 @@ article p {
 }
 
 .login-button p {
-  padding-left: 0px;
-  margin-right: 0;
+  /* padding-left: 0px;
+  margin-right: 0; */
   color: white;
   font-weight: 600;
 }
 
 .side-container {
-  border: 5px solid red;
+  border: 2px solid red;
   width: 700px;
   display: flex;
   flex-direction: column;
+  margin-left: 50px;
+  justify-content: center;
 }
 
 .buttons { 
-  margin-top: 13vh;
-  margin-left: 3vw;
+  /* padding-top: 100px; */
+  padding-left: 45px;
+}
+
+.buttons img + img {
+  padding-left: 20px;
+}
+
+.text-container {
+  box-sizing: border-box;
+  /* margin-top: 25px; */
+  /* margin-top: 20px; */
+  max-width: 100%;
+  padding: 50px;
 }
